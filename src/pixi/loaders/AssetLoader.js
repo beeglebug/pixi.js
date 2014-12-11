@@ -21,7 +21,7 @@
 PIXI.AssetLoader = function(assetURLs, crossorigin)
 {
     /**
-     * The array of asset URLs that are going to be loaded
+     * An array of asset urls
      *
      * @property assetURLs
      * @type Array(String)

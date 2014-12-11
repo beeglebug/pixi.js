@@ -15,7 +15,7 @@
  */
 PIXI.JsonLoader = function (url, crossorigin) {
     /**
-     * The url of the bitmap font data
+     * The url of the asset
      *
      * @property url
      * @type String

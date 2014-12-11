@@ -16,6 +16,14 @@
 PIXI.ImageLoader = function(url, crossorigin)
 {
     /**
+     * The url of the asset
+     *
+     * @property url
+     * @type String
+     */
+    this.url = url;
+
+    /**
      * The texture being loaded
      *
      * @property texture

@@ -20,7 +20,7 @@
 PIXI.SpriteSheetLoader = function (url, crossorigin) {
 
     /**
-     * The url of the atlas data
+     * The url of the asset
      *
      * @property url
      * @type String

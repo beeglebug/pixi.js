@@ -17,7 +17,15 @@
  * @param crossorigin {Boolean} Whether requests should be treated as crossorigin
  */
 PIXI.AtlasLoader = function (url, crossorigin) {
+
+    /**
+     * The url of the asset
+     *
+     * @property url
+     * @type String
+     */
     this.url = url;
+
     this.baseUrl = url.replace(/[^\/]*$/, '');
     this.crossorigin = crossorigin;
     this.loaded = false;
